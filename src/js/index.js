@@ -31,7 +31,7 @@ function render(variables = {}) {
   if (variables.name == null) variables.name = "Name"; // Display value for Name
   if (variables.lastname == null) variables.lastname = "LastName"; // Display value for Lastname
   if (variables.socialMediaPosition === "position-left")
-    variables.socialMediaPosition = "position-rigth"; // Display value for
+    variables.socialMediaPosition = "position-left"; // Display value for
   if (variables.twitter == null) variables.twitter = "#"; // Display value for Twitter
   if (variables.linkedin == null) variables.linkedin = "#"; // Display value for Name
   if (variables.instagram == null) variables.instagram = "#"; // Display value for Name
